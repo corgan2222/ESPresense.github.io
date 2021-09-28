@@ -18,6 +18,7 @@ An ESP32 based presence detection node for use with the [Home Assistant](https:/
 * Filters measured distance with botah a median prefilter and a Kalman filter (reduces jitter for more accuracy)
 * Fully multithreaded, uses constant BLE scanning, doesn't disable wdt (more reliable)
 * Additional [AppDaemon app](https://github.com/ESPresense/ad-espresense-ips) that attempts to solve indoor position (x,y,z) with multiple ESPresense stations using multilateralization.
+* Additional sensors supported, like Motion detectors or temperatur/humidity sensors.
 
 ## Getting Started
 
